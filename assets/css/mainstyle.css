@@ -1,0 +1,57 @@
+.body-cases {
+  background: #e21205;
+}
+.nav-header {
+  height: 33px;
+  background: #201b1b;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #ffffff;
+}
+.logo-header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.pages {
+  display: flex;
+}
+.pages li {
+  position: relative;
+}
+.pages a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  height: 31px;
+  padding: 0 9.5px;
+  border: 1px solid #000000;
+}
+.pages a:first-child {
+  border-right: none;
+}
+
+.pages a:hover {
+  cursor: pointer;
+}
+
+.nav-main-cases {
+  background: rgba(40, 21, 20, 0.37);
+}
+.nav-main-cases-options {
+  display: flex;
+  height: 57px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 47px;
+}
+.filter-cases {
+  margin: 20px 47px;
+}
+
+.filter-cases li:first-child {
+  margin-bottom: 20px;
+}

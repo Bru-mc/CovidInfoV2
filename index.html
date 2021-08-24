@@ -4,12 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/resetcss.css" />
+    <link rel="stylesheet" href="assets/css/mainstyle.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdnjs.com/libraries/Chart.js"></script>
     <title>covidInfV2.0</title>
   </head>
-  <body>
-    <div class="lista"></div>
-    <script type="module" src="main.js"></script>
+  <body class="body-cases">
+    <header>
+      <nav class="nav-header">
+        <h1 class="logo-header">Covid Info</h1>
+        <ul class="pages">
+          <li class="covid-inf-cases"><a href="#">ex1</a></li>
+          <li class="covid-inf-news"><a href="#">ex2</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <nav class="nav-main-cases">
+        <ul class="nav-main-cases-options">
+          <li><a href="">logo</a></li>
+          <li class="region-choice-cases">Global</li>
+          <li><a href="">top 10</a></li>
+        </ul>
+      </nav>
+      <div class="filter-cases">
+        <ul>
+          <li class="case-date">Data:<span></span></li>
+          <li class="case-data">Dados:<span></span></li>
+        </ul>
+      </div>
+    </main>
+    <script type="module" src="assets/js/main.js"></script>
   </body>
 </html>
