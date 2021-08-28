@@ -5,7 +5,7 @@ const axios = require("axios");
 
 app.use(cors());
 
-app.get("/", async (req, res) => {
+app.get("/countries", async (req, res) => {
   try {
     const { data } = await axios("https://api.covid19api.com/countries");
 

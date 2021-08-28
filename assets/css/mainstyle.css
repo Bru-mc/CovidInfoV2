@@ -39,7 +39,7 @@
 }
 
 .nav-main-cases {
-  background: rgba(40, 21, 20, 0.37);
+  background: #b00f05;
 }
 .nav-main-cases-options {
   display: flex;
@@ -48,10 +48,58 @@
   justify-content: space-between;
   margin: 0 47px;
 }
+.nav-main-cases-options a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+}
+.region-case-op {
+  border-bottom: 2px solid #201b1b;
+}
+.region-case:hover {
+  border-bottom: 2px solid #201b1b;
+  cursor: pointer;
+}
+.region-choice-cases {
+  position: relative;
+}
+.arrow {
+  height: 12.5px;
+}
+.ex {
+  padding: 7px;
+  background: #b00f05;
+}
+.dropdown {
+  display: none;
+  max-width: 160px;
+  max-height: 300px;
+  position: absolute;
+  overflow: auto;
+  border-top: 2px solid #201b1b;
+}
+.dropdown::-webkit-scrollbar {
+  width: 10px;
+}
+.dropdown::-webkit-scrollbar-track {
+  background: rgb(136, 7, 7);
+}
+.dropdown::-webkit-scrollbar-thumb {
+  background: rgb(114, 2, 2);
+  height: 100px;
+}
+
+.show {
+  display: block;
+}
 .filter-cases {
   margin: 20px 47px;
 }
 
 .filter-cases li:first-child {
   margin-bottom: 20px;
+}
+
+.ex:hover {
+  filter: brightness(90%);
 }
